@@ -1,0 +1,93 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Scholarship Management System</string>
+    <string name="scholarship_management_system">Scholarship Management System</string>
+    <string name="login1" tools:ignore="DuplicateDefinition">LOGIN</string>
+    <string name="external">EXTERNAL</string>
+    <string name="internal">INTERNAL</string>
+    <string name="type_of_scholarship">Type of scholarship</string>
+    <string name="sasamahan_kita">Sasamahan Kita</string>
+    <string name="welcome_flames">WELCOME FLAMES!</string>
+    <string name="internal_scholarships">Internal Scholarships</string>
+    <string name="login" tools:ignore="DuplicateDefinition">LOGIN</string>
+    <string name="phinma_upang_email">Phinma Upang Email</string>
+    <string name="password">Password</string>
+    <string name="handog_kaibigan1">Handog Kaibigan</string>
+    <string name="student_assistance1">Student Assistance</string>
+    <string name="phinma_scholar1">PHINMA Scholar</string>
+    <string name="todo">TODO</string>
+    <string name="external_scholarships">External Scholarships</string>
+    <string name="tertiary_education_subsidy_tes">Tertiary Education Subsidy (TES)</string>
+    <string name="commision_on_higher_education_ched">Commission on Higher Education (CHED)</string>
+    <string name="dost_scholarship">DOST Scholarship</string>
+    <string name="upang_scholarship_app">UPang Scholarship App</string>
+    <string name="handog_kaibigan">Handog Kaibigan</string>
+    <string name="_50_off_the_tuition_and_miscellaneous_fee_for_4_or_5_years_must_pass_exam_given_at_the_marketing_dept_must_be_in_good_class_standing_no_maintaining_grade_applicable_during_summer_if_it_s_required_in_the_curriculum_checklist">50% off the tuition and miscellaneous fee for 4 or 5 years. (Must pass exam given at the Marketing Dept.) Must be in good class standing. No maintaining grade. Applicable during summer if it’s required in the curriculum checklist.</string>
+    <string name="apply">APPLY</string>
+    <string name="student_assistance2">Student Assistance</string>
+    <string name="_100_off_the_tuition_21_units_only_must_be_in_good_class_standing_service_of_4_hours_day_at_the_assigned_department_must_have_passing_grades_not_applicable_during_summer"><![CDATA[100% off the tuition (21 units only) & must be in good class standing. Service of 4 hours/day at the assigned department. Must have passing grades. Not applicable during summer.]]></string>
+    <string name="student_assistance">Student Assistance</string>
+    <string name="phinma_scholar">PHINMA Scholar</string>
+    <string name="_100_discount_on_tuition_miscellaneous_fees_for_4_or_5_years_p4_000_monthly_allowance_for_honors_or_top_10_grade_12_students_who_pass_qualifying_exam_service_of_2_hrs_day_at_assigned_department_no_grade_below_2_0_average_must_be_1_75_or_above_applicable_during_summer_if_required_in_the_curriculum"><![CDATA[100% discount on tuition & miscellaneous fees for 4 or 5 years & P4,000 monthly allowance for Honors or Top 10 Grade 12 students who pass qualifying exam. Service of 2 hrs/day at assigned department. No grade below 2.0. Average must be 1.75 or above. Applicable during summer if required in the curriculum.]]></string>
+    <string name="_100_discount_on_tuition_amp_miscellaneous_fees_for_4_or_5_years_amp_p4_000_monthly_allowance_for_honors_or_top_10_grade_12_students_who_pass_qualifying_exam_service_of_2_hrs_day_at_assigned_department_no_grade_below_2_0_average_must_be_1_75_or_above_applicable_during_summer_if_required_in_the_curriculum"><![CDATA[100% discount on tuition & miscellaneous fees for 4 or 5 years & P4,000 monthly allowance for Honors or Top 10 Grade 12 students who pass qualifying exam. Service of 2 hrs/day at assigned department. No grade below 2.0. Average must be 1.75 or above. Applicable during summer if required in the curriculum.]]></string>
+    <string name="known_as_the_universal_access_to_quality_tertiary_education_act_is_an_act_promoting_universal_access_to_quality_tertiary_education_by_providing_free_tuition_and_other_school_fees_in_state_universities_and_colleges_local_universities_and_colleges_and_state_run_technical_vocational_institutions_establishing_the_tertiary_education_subsidy_and_student_loan_program_strengthening_the_unified_student_financial_assistance_system_for_tertiary_education_and_appropriating_fund_therefore_as_stated_in_the_title_of_the_law">Known as the Universal Access to Quality Tertiary Education Act is “an act promoting universal access to quality tertiary education by providing free tuition and other school fees in State Universities and Colleges, Local Universities and Colleges, and State-Run Technical-Vocational Institutions, establishing the Tertiary Education Subsidy and Student Loan Program, strengthening the Unified Student Financial Assistance System for Tertiary Education, and appropriating fund, therefore,” as stated in the title of the Law.</string>
+    <string name="stufaps_aims_to_provide_financial_assistance_to_students_who_are_enrolled_in_authorized_public_or_private_higher_education_institutions_heis_this_helps_to_ensure_that_education_shall_be_accessible_to_all_especially_to_underprivileged_and_deserving_students_qualified_beneficiaries_shall_enroll_or_must_be_currently_enrolled_in_any_ched_priority_courses_as_per_cmo_no_1_s_2104_and_shall_receive_financial_assistance_amounting_to_php_15_000_to_php_30_000_per_semester_whichever_program_an_applicant_qualifies">StuFAPs aims to provide financial assistance to students who are enrolled in authorized public or private Higher Education Institutions (HEIs). This helps to ensure that education shall be accessible to all especially to underprivileged and deserving students. Qualified beneficiaries shall enroll or must be currently enrolled in any CHED priority courses as per CMO No. 1 s. 2104 and shall receive financial assistance amounting to Php 15,000 to Php 30,000 per semester whichever program an applicant qualifies.</string>
+    <string name="commission_on_higher_education_ched">Commission on Higher Education (CHED)</string>
+    <string name="educational_discount_for_government_employees_edge">Educational Discount for Government Employees (EDGE)</string>
+    <string name="the_scholarship_aims_to_give_back_to_those_who_are_serving_in_the_government_25_discount_on_tuition_fee_minimum_qualifications_strictly_for_filipinos_only_child_of_government_employees_incoming_college_any_gender_for_any_marital_status">The scholarship aims to give back to those who are serving in the government. 25% discount on Tuition Fee.Minimum Qualifications: Strictly for Filipinos only, Child of government employees, Incoming College,Any gender,For any marital status.</string>
+    <string name="application_form">Application Form</string>
+    <string name="student_number">Student number</string>
+    <string name="cellphone_number">Cellphone number</string>
+    <string name="birthdate">Birthdate</string>
+    <string name="month_day_year">month/day/year</string>
+    <string name="address">Address</string>
+    <string name="year_level">Year level</string>
+    <string name="course">Course</string>
+    <string name="name">Name</string>
+    <string name="age">Age</string>
+    <string name="email_address">Email address</string>
+    <string name="submit">SUBMIT</string>
+    <string name="done">DONE</string>
+    <string name="submit_your_requirments_here">Submit your requirments here</string>
+    <string name="phinma_upang_up_phinmaed_com">phinma.upang.up@phinmaed.com</string>
+    <string name="after_you_submit_please_wait_for_further_announcements_thankyou">After you submit please wait for further announcements. Thankyou!</string>
+    <string name="if_you_have_concerns_visits_the_university_of_pangasinan_page">If you have concerns, visits the University of Pangasinan page.</string>
+    <string-array name="HK_array">
+        <item>Requirments</item>
+        <item>Scholarship Acceptance Letter</item>
+        <item>Scholarship Certificate</item>
+        <item>-Enrollment Registration</item>
+    </string-array>
+    <string-array name="ST_array">
+        <item>Requirments</item>
+        <item>Should pass the examination and interview</item>
+    </string-array>
+    <string-array name="PHINMA_array">
+        <item>Requirments</item>
+        <item>Scholarship Acceptance letter from Office of the President</item>
+        <item>Enrollment Registration</item>
+    </string-array>
+    <string-array name="TES_array">
+        <item>Requirments</item>
+        <item>Certificate of Registration</item>
+        <item>Brgy. Certificate of Indigency or Residency</item>
+        <item>BIR Document (ITR or Form 2316 or
+            Proof of No Income):</item>
+    </string-array>
+    <string-array name="CHED_array">
+        <item>Requirments</item>
+        <item>Copy of grades</item>
+        <item>A certified true copy of the birth certificate</item>
+        <item>Proof of Income</item>
+    </string-array>
+    <string-array name="EDGE_array">
+        <item>Requirments</item>
+        <item>FORM 137</item>
+        <item>Certificate of Good Moral Character</item>
+        <item>NSO Birth Certificate</item>
+    </string-array>
+    <string-array name="Gender_array">
+        <item>Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+</resources>

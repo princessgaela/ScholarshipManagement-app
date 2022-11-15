@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/internalscholarships"
+        android:layout_width="300dp"
+        android:layout_height="97dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/top_shape"
+        android:gravity="center"
+        android:text="@string/internal_scholarships"
+        android:textColor="#1B5E20"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/HKbttn"
+        android:layout_width="334dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/scholarshipbuttons"
+        android:drawableEnd="@drawable/ic_action_check"
+        android:fontFamily="@font/calibri_regular"
+        android:text="@string/handog_kaibigan"
+        android:textAllCaps="false"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.486"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/internalscholarships" />
+
+    <Button
+        android:id="@+id/Studentassistancebttn"
+        android:layout_width="334dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/scholarshipbuttons"
+        android:drawableEnd="@drawable/ic_action_check"
+        android:fontFamily="@font/calibri_regular"
+        android:text="@string/student_assistance"
+        android:textAllCaps="false"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/HKbttn" />
+
+    <Button
+        android:id="@+id/PHINMAscholarbttn"
+        android:layout_width="334dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/scholarshipbuttons"
+        android:drawableEnd="@drawable/ic_action_check"
+        android:fontFamily="@font/calibri_regular"
+        android:text="@string/phinma_scholar"
+        android:textAllCaps="false"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Studentassistancebttn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

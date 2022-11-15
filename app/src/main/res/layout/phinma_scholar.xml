@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/PHINMAScholarapplybttn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/bttnrounded"
+        android:text="@string/apply"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PHINMAScholarspinner" />
+
+    <Spinner
+        android:id="@+id/PHINMAScholarspinner"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PHINMAScholardesc"
+        tools:ignore="MissingConstraints,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/PHINMAScholar"
+        android:layout_width="300dp"
+        android:layout_height="97dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/top_shape"
+        android:gravity="center"
+        android:text="@string/phinma_scholar"
+        android:textColor="#1B5E20"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/PHINMAScholardesc"
+        android:layout_width="337dp"
+        android:layout_height="317dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/_100_discount_on_tuition_amp_miscellaneous_fees_for_4_or_5_years_amp_p4_000_monthly_allowance_for_honors_or_top_10_grade_12_students_who_pass_qualifying_exam_service_of_2_hrs_day_at_assigned_department_no_grade_below_2_0_average_must_be_1_75_or_above_applicable_during_summer_if_required_in_the_curriculum"
+        android:background="@drawable/requirments_border"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="23sp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PHINMAScholar" />
+</androidx.constraintlayout.widget.ConstraintLayout>

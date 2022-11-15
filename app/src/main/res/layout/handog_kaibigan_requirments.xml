@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/HKapplyubttn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/bttnrounded"
+        android:text="@string/apply"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/HKspinner" />
+
+    <TextView
+        android:id="@+id/HandogKaibigan"
+        android:layout_width="300dp"
+        android:layout_height="97dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/top_shape"
+        android:gravity="center"
+        android:text="@string/handog_kaibigan"
+        android:textColor="#1B5E20"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/HKdesc"
+        android:layout_width="338dp"
+        android:layout_height="221dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/_50_off_the_tuition_and_miscellaneous_fee_for_4_or_5_years_must_pass_exam_given_at_the_marketing_dept_must_be_in_good_class_standing_no_maintaining_grade_applicable_during_summer_if_it_s_required_in_the_curriculum_checklist"
+        android:textSize="23sp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:background="@drawable/requirments_border"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/HandogKaibigan" />
+
+    <Spinner
+        android:id="@+id/HKspinner"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/HKdesc"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

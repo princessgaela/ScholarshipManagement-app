@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/CHEDapplybttn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/bttnrounded"
+        android:text="@string/apply"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CHEDspinner" />
+
+    <Spinner
+        android:id="@+id/CHEDspinner"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CHEDdesc"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/CHEDdesc"
+        android:layout_width="325dp"
+        android:layout_height="325dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/requirments_border"
+        android:gravity="center"
+        android:text="@string/stufaps_aims_to_provide_financial_assistance_to_students_who_are_enrolled_in_authorized_public_or_private_higher_education_institutions_heis_this_helps_to_ensure_that_education_shall_be_accessible_to_all_especially_to_underprivileged_and_deserving_students_qualified_beneficiaries_shall_enroll_or_must_be_currently_enrolled_in_any_ched_priority_courses_as_per_cmo_no_1_s_2104_and_shall_receive_financial_assistance_amounting_to_php_15_000_to_php_30_000_per_semester_whichever_program_an_applicant_qualifies"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/CHED" />
+
+    <TextView
+        android:id="@+id/CHED"
+        android:layout_width="300dp"
+        android:layout_height="97dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/top_shape"
+        android:gravity="center"
+        android:text="@string/commission_on_higher_education_ched"
+        android:textColor="#1B5E20"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
